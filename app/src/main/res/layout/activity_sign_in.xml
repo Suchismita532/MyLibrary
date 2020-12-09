@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignIn"
+
+    android:background="@drawable/bg2">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="160dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/user"
+        android:contentDescription="@string/todo"
+        android:layout_marginStart="130dp" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:textColorHint="@color/white"
+        android:autofillHints=""
+        android:hint="@string/username"
+        android:inputType="textAutoComplete"/>
+
+
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_below="@+id/username"
+        android:layout_centerInParent="true"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:hint="@string/password"
+        android:textColorHint="@color/white"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_marginTop="50dp"
+        android:text="@string/sign_in"
+        android:textSize="24sp"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/rectangle_2"
+        android:layout_below="@id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>

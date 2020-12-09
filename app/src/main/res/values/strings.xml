@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">My Library</string>
+    <string name="todo">TODO</string>
+    <string name="email_address">Email Address</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="already_have_an_account_sign_in">Already have an account? Sign In</string>
+    <string name="library">LIBRARY</string>
+    <string name="e_library">E-LIBRARY</string>
+    <string name="question_papers">QUESTION PAPERS</string>
+
+</resources>
